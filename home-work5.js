@@ -1,4 +1,4 @@
-1 (3 points)
+// 1 (3 points)
 function sampleFunc () {
     console.log ( `${arguments.callee.name}: ${arguments[0]} | ${arguments[1]}` )
 }
@@ -10,7 +10,7 @@ testFunc()
 
 
 
-2 (4 points)
+// 2 (4 points)
 function sampleFunc () {
     console.info ( `Symbols in my code: ${arguments.callee + 0}` )
 }
@@ -24,7 +24,7 @@ sampleFunc()
 
 
 
-3 (5 points)
+// 3 (5 points)
 function testArguments () {
     function generateError ( numArgs ) {
         if ( arguments.length ) {
